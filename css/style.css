@@ -594,4 +594,24 @@ border-color:  #d82c2e;
   .tallScreenText{
     display: none;
   }
+
+  .benovolat h3 {
+        line-height: 45px;
+  }
+  .benovolat h4 {
+          line-height: 35px;
+}
+
+.timeline-panel {
+    width: 100%;
+    float: right;
+    margin-right: 40px;
+    border-radius: 7px;
+    padding: 5px;
+    position: relative;
+    background: none;
+}
+
+
+
 }
