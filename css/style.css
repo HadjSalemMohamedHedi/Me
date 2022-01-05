@@ -669,6 +669,11 @@ border-color:  #d82c2e;
 .PlusPortfilio a{
   color: #fff;
 }
+
+.PlusPortfilio:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
     @media (max-width: 420px) {
   .category {
     font: 24px/72px "Titan One";
