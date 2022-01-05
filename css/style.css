@@ -115,7 +115,15 @@ font-weight: 700;
     width: 95%;
     height: 95%;
    padding-top: 4vh;
+   display: flex;
+    align-items: center;
+    text-align: center;
 }
+
+.allwidth{
+      width: 100%;
+}
+
 .portfolio-text-holder {
     color: #fff;
     position: absolute;
@@ -666,10 +674,13 @@ border-color:  #d82c2e;
   padding: 2%;
   text-align: center;
 }
-.PlusPortfilio a{
+a{
   color: #fff;
 }
 
+a:hover {
+  text-decoration: none;
+}
 .PlusPortfilio:hover{
   opacity: 0.6;
   cursor: pointer;
