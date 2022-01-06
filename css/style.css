@@ -627,7 +627,18 @@ border-color:  #d82c2e;
 .text-mutedd{
   color: #fff;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 995px) {
+.carousel-item{
+  height: 335px;
+}
+
+.carousel-indicators {
+    bottom: -16%!important;
+}
+
+.experiencecontenue{
+  padding: 0;
+}
 
     img{
           height: auto;
@@ -693,7 +704,7 @@ a:hover {
   opacity: 0.6;
   cursor: pointer;
 }
-    @media (max-width: 420px) {
+    @media (max-width: 995px) {
   .category {
     font: 24px/72px "Titan One";
     text-align: center;
@@ -702,7 +713,7 @@ a:hover {
     font-size: 9pt;
   }
 }
-@media (max-height: 946px){
+@media (max-height: 995px){
   .tallScreenText{
     display: none;
   }
@@ -724,7 +735,18 @@ a:hover {
     background: none;
 }
 
+.educationcontenue{
+  display: block;
+}
 
+.timeline-event-content{
+  height: auto;
+}
+
+
+.timeline{
+  padding: 33px!important;
+}
 
 }
 
