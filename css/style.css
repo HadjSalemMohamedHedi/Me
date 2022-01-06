@@ -226,6 +226,10 @@ a.item-link:after {
 }
 .educationcontenue{
   padding: 5%;
+  padding: 5%;
+    min-height: 692px;
+    align-items: center;
+    display: flex;
 }
 
 .experience , .experiencecontenue{
@@ -266,7 +270,7 @@ article,
 
 
 li.timeline-event {
-    margin: 0 0 30px 60px;
+    margin: 0 0 35px 75px;
     position: relative;
     padding-top: 5px;
     padding-left: 10px;
@@ -301,14 +305,18 @@ span.timeline-circle:before {
     line-height: 160%;
     text-align: left;
     margin-left: 2%;
+    font-size: 20px;
+    height: 125px;
 }
 
 .timeline-event-date {
-    position: absolute;
-    left: -120px;
+   position: absolute;
+    left: -155px;
     top: 2px;
     color: #fff;
     transition: .3s;
+    font-size: 22px;
+    font-weight: 900;
 }
 
 .Content_home{
