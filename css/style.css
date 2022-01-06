@@ -741,6 +741,11 @@ a:hover {
   opacity: 0.5;
   cursor: pointer;
 }
+
+.contactInfo a:hover{
+  color: #fff;
+}
+
 .contactInfo1{
     padding: 5%;
     background: #ff1e5e;
