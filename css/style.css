@@ -651,6 +651,11 @@ border-color:  #d82c2e;
           height: auto;
     width: 100%;
     }
+
+    .helloimage{
+    height: auto;
+    width: 40%;
+    }
       .navbrand{
         display: none;
       }
